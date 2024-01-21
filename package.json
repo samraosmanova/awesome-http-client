@@ -1,0 +1,21 @@
+{
+  "name": "awesome-http-client",
+  "version": "1.0.0",
+  "description": "An awesome chalked HTTP client CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0"
+  },
+  "bin": {
+    "awesome-http-client": "index.js"
+  }
+}
